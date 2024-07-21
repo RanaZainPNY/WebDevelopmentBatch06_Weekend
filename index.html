@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal CSS -->
+    <style>
+      /* id based */
+      #zubair {
+        border: 2px solid red;
+      }
+      #abc {
+        background-color: yellow;
+        border-bottom: 4px solid red;
+      }
+      /* class based */
+      .box {
+        width: 150px;
+        height: 100px;
+        border: 12px solid magenta;
+        /* border-top: 23px solid magenta;
+        border-right: 23px solid red;
+        border-bottom: 23px dotted red; */
+        margin: 50px 10px;
+        padding: 23px 10px;
+      }
+      /* tag based */
+      h1 {
+        text-align: center;
+      }
+      .bgred {
+        background-color: red;
+      }
+      .bgblue {
+        background-color: blue;
+      }
+
+      /* descendent selector */
+      /* div p{
+        background: #000;
+        color: white;
+      } */
+
+      /* child selector */
+      div > p {
+        background-color: violet;
+        color: white;
+      }
+      /* sibling Selector */
+      /* general sibling selector */
+      .card {
+        border: 2px solid red;
+        width: 250px;
+        margin: 30px 0px;
+      }
+      .card-head img {
+        width: 100%;
+      }
+      .card-foot button {
+        background-color: blueviolet;
+        color: white;
+        border: none;
+        padding: 15px;
+        /* border-radius: 23px; */
+        margin: 10px 5px;
+      }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse
+        obcaecati! Suscipit doloribus voluptates, perferendis quod et ea nam
+        voluptate quae nihil sapiente porro similique odit incidunt excepturi
+        dolor nemo!
+      </p>
+    </div>
+
+    <!-- Inline CSS -->
+    <h1 style="color: red; margin: 0px">Heading 1</h1>
+    <div id="zubair">
+      <h1 style="margin: 0px">Physics</h1>
+      <p style="margin-top: 0px">
+        Lorem ipsum <span id="abc">dolor sit</span> amet consectetur adipisicing
+        elit. Dicta, possimus perspiciatis repudiandae accusantium dignissimos,
+        sint et sapiente ullam enim magnam dolorem iste? Magnam eaque itaque
+        ullam dolorum adipisci. Ipsa unde dolorem necessitatibus veritatis qui
+        iste sit esse magni similique, facere aliquam labore tempore consequatur
+        sed dolor quaerat velit eaque neque culpa. Molestias ipsum expedita
+        eligendi neque.
+      </p>
+    </div>
+    <div class="box bgred">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore vitae
+        quaerat?
+      </p>
+    </div>
+    <div class="box bgred"></div>
+    <div class="box bgblue"></div>
+    <div class="box bgblue"></div>
+    <!-- CSS Box Model -->
+
+    <!-- cards -->
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=85398433622cba4b35da04befdd7a8ea0a8d25c0-9180844-images-thumbs&n=13"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1>Goal Setting</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+          obcaecati neque? Enim!
+        </p>
+      </div>
+      <div class="card-foot">
+        <button>Full Details</button>
+      </div>
+    </div>
+  </body>
+</html>
